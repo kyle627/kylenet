@@ -3,6 +3,8 @@ require "header.php";
 ?>
 
     <main>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <center><a href="index.php" class="button">Close Sign Up</a></center>
         <div align="center">
             <h1>Signup</h1>
             <?php
@@ -32,11 +34,11 @@ require "header.php";
                 }
             ?>
                 <form action="includes/signup.inc.php" method="post">
-                <input type="text" name="uid" placeholder="Username" class="textbox"><br><br>
-                <input type="text" name="mail" placeholder="E-mail" class="textbox"><br><br>
-                <input type="password" name="pwd" placeholder="Password" class="textbox"><br><br>
-                <input type="password" name="pwd-repeat" placeholder="Repeat Password" class="textbox"><br><br>
-                <button type="submit" name="signup-submit" class="button">Signup</button>
+                    <input type="text" name="uid" placeholder="Username" class="textbox"><br><br>
+                    <input type="text" name="mail" placeholder="E-mail" class="textbox"><br><br>
+                    <input type="password" name="pwd" placeholder="Password" class="textbox"><br><br>
+                    <input type="password" name="pwd-repeat" placeholder="Repeat Password" class="textbox"><br><br>
+                    <button type="submit" name="signup-submit" class="button">Signup</button>
             </form>
         </div>
     </main>
